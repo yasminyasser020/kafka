@@ -13,8 +13,8 @@ unique_group_id = f"offset-tester-group-{strategy}-{int(time.time())}"
 
 config = {
     'bootstrap.servers': 'localhost:9092',
-    'group.id': unique_group_id,       # 👈 Forced fresh group
-    'auto.offset.reset': strategy,      # 👈 Your strategy argument
+    'group.id': unique_group_id,       #  Forced fresh group
+    'auto.offset.reset': strategy,      #  Your strategy argument
     'enable.auto.commit': False
 }
 

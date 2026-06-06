@@ -65,7 +65,7 @@ Strict client-side enforced binary data definition utilizing `fastavro`.
 ## 🏗️ Environment Setup
 
 ### Step 1: Launch Infrastructure Cluster
-Spin up the local containerized environment containing your multi-broker Kafka architecture, Schema Registry, and object storage layers:
+Spin up the local containerized environment containing your multi-broker Kafka architecture, and object storage layers:
 ```bash
 docker compose up -d 
 ```
